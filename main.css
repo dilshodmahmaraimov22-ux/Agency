@@ -767,3 +767,168 @@ body {
 }
 
 /*----------------FOOTER------------------*/
+
+/* CTA SECTION */
+.cta-section {
+  display: flex;
+  width: 100%;
+}
+
+.cta-box {
+  flex: 1;
+  padding: 80px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.cta-box:hover {
+  opacity: 0.95;
+}
+
+/* LIGHT CTA BOX */
+.cta-light {
+  background-color: #f9f9f9;
+  color: #222222;
+}
+
+.cta-light .cta-icon {
+  color: #555555;
+}
+
+.cta-light .cta-subtitle {
+  color: #888888;
+}
+
+.cta-light .cta-arrow {
+  color: #aaaaaa;
+}
+
+/* GREEN CTA BOX */
+.cta-green {
+  background-color: #70c174;
+  color: #ffffff;
+}
+
+.cta-green .cta-icon {
+  color: #ffffff;
+}
+
+.cta-green .cta-subtitle {
+  color: #e2f4e3;
+}
+
+.cta-green .cta-arrow {
+  color: #ffffff;
+}
+
+/* CTA ELEMENTS */
+.cta-icon {
+  margin-bottom: 20px;
+}
+
+.cta-title {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.cta-subtitle {
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.cta-arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.cta-box:hover .cta-arrow {
+  transform: translateX(6px);
+}
+
+/* SITE FOOTER */
+.sqwd-footer {
+  background-color: #2a2a2a;
+  color: #888888;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info {
+  margin-bottom: 30px;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+
+.footer-address {
+  color: #aaaaaa;
+}
+
+.footer-contact {
+  color: #777777;
+}
+
+/* SOCIAL ICONS */
+.footer-socials {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #444444;
+  color: #aaaaaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: serif;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  border-color: #70c174;
+  color: #70c174;
+}
+
+.footer-copyright {
+  background-color: #222222;
+  padding: 16px 0;
+  font-size: 10px;
+  color: #666666;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .cta-section {
+    flex-direction: column;
+  }
+
+  .cta-box {
+    padding: 60px 20px;
+  }
+
+  .cta-title {
+    font-size: 22px;
+  }
+}
