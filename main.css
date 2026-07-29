@@ -768,7 +768,6 @@ body {
 
 /*----------------FOOTER------------------*/
 
-/* CTA SECTION */
 .cta-section {
   display: flex;
   width: 100%;
@@ -790,7 +789,6 @@ body {
   opacity: 0.95;
 }
 
-/* LIGHT CTA BOX */
 .cta-light {
   background-color: #f9f9f9;
   color: #222222;
@@ -808,7 +806,6 @@ body {
   color: #aaaaaa;
 }
 
-/* GREEN CTA BOX */
 .cta-green {
   background-color: #70c174;
   color: #ffffff;
@@ -826,7 +823,6 @@ body {
   color: #ffffff;
 }
 
-/* CTA ELEMENTS */
 .cta-icon {
   margin-bottom: 20px;
 }
@@ -854,7 +850,6 @@ body {
   transform: translateX(6px);
 }
 
-/* SITE FOOTER */
 .sqwd-footer {
   background-color: #2a2a2a;
   color: #888888;
@@ -883,7 +878,6 @@ body {
   color: #777777;
 }
 
-/* SOCIAL ICONS */
 .footer-socials {
   display: flex;
   gap: 16px;
