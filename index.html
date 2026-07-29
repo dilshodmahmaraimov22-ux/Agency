@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQWD - Creative Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero-section">
+    <div class="overlay"></div>
+    <div class="container hero-container">
+      
+      <nav class="navbar">
+        <div class="nav-brand">
+        </div>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#" class="nav-link active">WORKS</a></li>
+          <li><a href="#" class="nav-link">ABOUT</a></li>
+          <li><a href="#" class="nav-link">SERVICES</a></li>
+          <li><a href="#" class="nav-link">BLOG</a></li>
+          <li><a href="#" class="nav-link">CONTACT</a></li>
+        </ul>
+
+        <button class="burger-btn" onclick="toggleMenu()" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+
+      <div class="hero-content">
+        <h1 class="hero-title">WHERE GREAT IDEAS COME TO LIFE</h1>
+        <p class="hero-subtitle">Passionate creative studio helping startups grow their business!</p>
+      </div>
+
+      <div class="hero-slider-dots">
+        <span class="dot active">01</span>
+        <span class="dot">02</span>
+        <span class="dot">03</span>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="about-section">
+      <div class="container about-container">
+        
+        <div class="about-text-content">
+          <span class="section-tag">WE ARE</span>
+          <h2 class="section-title">THE SQWD</h2>
+          <p class="about-description">
+            <span class="dash">—</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+          </p>
+        </div>
+
+        <div class="about-composition">
+          
+          <div class="img-box img-main">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="SQWD Team member">
+          </div>
+
+          <div class="green-accent-box"></div>
+
+          <div class="img-box img-secondary">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80" alt="Creative person">
+          </div>
+
+          <p class="about-extra-text">
+            <span class="dash">—</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('navMenu');
+      menu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
